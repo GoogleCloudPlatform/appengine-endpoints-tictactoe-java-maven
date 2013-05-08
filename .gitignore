@@ -1,0 +1,9 @@
+.idea
+.DS_Store
+.settings
+*.jar
+*.iml
+*~
+target/
+classes/
+appengine-generated/
