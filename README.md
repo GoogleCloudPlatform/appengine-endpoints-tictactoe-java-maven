@@ -12,6 +12,7 @@ Google Cloud Endpoints, App Engine, and Java.
 
 ## APIs
 - [Google Cloud Endpoints][3]
+- [Google App Engine Maven plugin][6]
 
 ## Setup Instructions
 1. Update the value of `application` in `appengine-web.xml` to the app ID you
@@ -26,6 +27,7 @@ Google Cloud Endpoints, App Engine, and Java.
 1. mvn clean install
 1. Run the application with mvn appengine:devserver, and ensure it's running 
    by visiting your local server's  address (by default [localhost:8080][5].)
+1. Get the client library with mvn appengine:get_client_lib
 1. Deploy your application.
 
 
@@ -34,3 +36,4 @@ Google Cloud Endpoints, App Engine, and Java.
 [3]: https://developers.google.com/appengine/docs/java/endpoints/
 [4]: https://code.google.com/apis/console
 [5]: https://localhost:8080/
+[6]: https://developers.google.com/appengine/docs/java/tools/maven
