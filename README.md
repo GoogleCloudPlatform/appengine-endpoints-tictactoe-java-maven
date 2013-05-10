@@ -25,9 +25,9 @@ Google Cloud Endpoints, App Engine, and Java.
    `war/js/base.js` to reflect the web client ID you have registered in the
    [APIs Console][4].
 1. mvn clean install
-1. Run the application with mvn appengine:devserver, and ensure it's running 
+1. Run the application with `mvn appengine:devserver`, and ensure it's running 
    by visiting your local server's  address (by default [localhost:8080][5].)
-1. Get the client library with mvn appengine:get_client_lib
+1. Get the client library with `mvn appengine:get_client_lib`
 1. Deploy your application.
 
 
