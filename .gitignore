@@ -4,6 +4,7 @@
 *.jar
 *.iml
 *~
+datanucleus.log
 target/
 classes/
 appengine-generated/
