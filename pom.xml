@@ -9,7 +9,7 @@
   <artifactId>endpoints-tictactoe</artifactId>
  
   <properties>
-    <appengine.target.version>1.9.48</appengine.target.version>
+    <appengine.target.version>1.9.50</appengine.target.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
@@ -116,7 +116,7 @@
       <plugin>
         <groupId>com.google.appengine</groupId>
         <artifactId>appengine-maven-plugin</artifactId>
-        <version>1.9.48</version>
+        <version>1.9.50</version>
         <configuration>                                     
           <enableJarClasses>false</enableJarClasses>
         </configuration>
